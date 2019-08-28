@@ -11,6 +11,7 @@ function App() {
         <h1>Just confusion is what is happening</h1>
         <h1>React is Fun</h1>
         <h1>Just confusion is what is happening</h1>
+        <h1>Just confusion is what is happening</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
