@@ -1,33 +1,29 @@
 import React from "react";
-import {Layout, Header, Navigation,Drawer, Content} from 'react-mdl';
+import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
+import Main from './components/main';
+import {Link} from 'react-router-dom';
 import "./App.css";
 
 function App() {
   return (
-    <div style={{ height: "300px", position: "relative" }}>
-      <Layout
-        style={{
-          background:
-            "url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover"
-        }}
-      >
-        <Header transparent title="Title" style={{ color: "white" }}>
+    <div className="demo-big-content">
+      <Layout>
+        <Header title="My PORTFOLIO" scroll>
           <Navigation>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
+            <Link to="/resume">Resume</Link>
+            <Link to="/projects">Projects</Link>
           </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="My Portfolio">
           <Navigation>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
+            <Link to="/resume">Resume</Link>
+            <Link to="/projects">Projects</Link>
           </Navigation>
         </Drawer>
-        <Content />
+        <Content>
+          <div className="page-content" />
+          <Main />
+        </Content>
       </Layout>
     </div>
   );
