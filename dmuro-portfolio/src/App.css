@@ -18,7 +18,6 @@
   left: 0;
   width:100%;
   height: 100%;
-
 }
 
 .avatar-img {
@@ -58,7 +57,7 @@
   height: 80px;
 }
 .banner-paragraph hr {
-  border-top: 5px dotted white;
+  border-top: 3px solid white;
   width: 50%;
   margin: auto;
   padding-bottom: 40px;
