@@ -1,32 +1,32 @@
 .header-color {
   background: #000046;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+  background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1CB5E0, #000046);
+  background: linear-gradient(to right, #1cb5e0, #000046);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
 
 .landing-grid {
   background: #000046;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+  background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1CB5E0, #000046);
+  background: linear-gradient(to right, #1cb5e0, #000046);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .avatar-img {
-  height: 250px;
-  padding-top: 5em;
-  
+  width: 15%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .banner-text {
   background-color: black;
-  opacity: .5;
+  opacity: 0.5;
   width: 60%;
   margin: auto;
   border-radius: 58px;
@@ -34,29 +34,39 @@
 
 .banner-text h1 {
   font-size: 50px;
- 
   color: white;
   text-align: center;
 }
 
 .banner-paragraph {
   background-color: black;
-  opacity: .5;
+  opacity: 0.5;
   width: 60%;
   margin: auto;
   border-radius: 58px;
 }
 .banner-paragraph p {
-   font-size: 30px;
-   color: white;
-   text-align: center;
-   padding:1em;
-   height: 80px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  height: 80px;
 }
 .banner-paragraph hr {
   border-top: 5px dotted white;
   width: 50%;
-  margin:auto;
-  padding-bottom: 100px;
+  margin: auto;
+  padding-bottom: 40px;
   margin-top: -70px;
+}
+.social-link {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin:auto;
+}
+.social-link i {
+  color:white;
+  font-size:5em;
+  padding-bottom: 60%;
 }
