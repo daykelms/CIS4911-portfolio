@@ -22,7 +22,7 @@ class LandingPage extends React.Component {
               <p> HTML/CSS | React JS | JavaScript |PostgreSQL | Java | Spring</p>
               <hr/>
               <div className="social-link">
-                <a href="www.linkedin.com/in/daykel-muro" rel="noopener noreferrer" target="_blank">
+                <a href="https://www.linkedin.com/in/daykel-muro" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-linkedin-square" aria-hidden="true"/>
                 </a>
                 <a href="https://twitter.com/CITServ" rel="noopener noreferrer" target="_blank">
