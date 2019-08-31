@@ -19,7 +19,7 @@ class LandingPage extends React.Component {
             </div>
             <br/>
             <div className="banner-paragraph">
-              <p> HTML/CSS | React JS | JavaScript |PostgreSQL | Java | Spring</p>
+              <p> HTML/CSS | React JS | JavaScript | PostgreSQL | Java | Spring</p>
               <hr/>
               <div className="social-link">
                 <a href="https://www.linkedin.com/in/daykel-muro" rel="noopener noreferrer" target="_blank">

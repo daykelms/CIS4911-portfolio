@@ -82,10 +82,10 @@ class Projects extends React.Component {
           ripple
         >
           <Tab>
-            State Farm<sup>®</sup> Community Offers
+            State Farm<sup>®</sup>{" "} Community Offers
           </Tab>
           <Tab>
-            State Farm<sup>®</sup> Merchant Portal
+            State Farm<sup>®</sup> {" "}Merchant Portal
           </Tab>
         </Tabs>
         <section className="projects-grid">

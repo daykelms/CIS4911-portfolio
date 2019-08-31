@@ -37,7 +37,7 @@
 }
 
 .banner-text h1 {
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   text-align: center;
 }
@@ -73,4 +73,11 @@
   color:white;
   font-size:5em;
   padding-bottom: 60%;
+}
+
+.resume-right-col{
+  background: #27221F;
+  color: white;
+  padding: 2em;
+
 }
