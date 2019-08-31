@@ -15,7 +15,7 @@ class LandingPage extends React.Component {
               className="avatar-img"
             />
             <div className="banner-text">
-              <h1> Software_Developer</h1>
+              <h1> Software_Engineer</h1>
             </div>
             <br/>
             <div className="banner-paragraph">
